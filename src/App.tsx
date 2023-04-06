@@ -6,7 +6,8 @@ function App() {
 
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">Planr</h1>
+      <div className="container box-content h-20 w-20 bg-red-700"></div>
+      <h1 className="text-5xl font-bold underline">Planr</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
