@@ -12,9 +12,8 @@ function App() {
       <div>
         <Navbar />
       </div>
-      <div className="flex flex-row">
+      <div className="lg:flex">
         <Calendar />
-
         <DailyView />
       </div>
     </div>

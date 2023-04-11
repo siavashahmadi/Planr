@@ -11,8 +11,22 @@ const Day: React.FC<DayProps> = (props) => {
   const { day, month } = props;
 
   return (
-    <div className="border border-slate-100 h-52">
-      <div className="grid grid-cols-3 ">
+    <div className=" bg-white border-slate-100 h-52 hover:scale-110 transition hover:shadow-lg rounded-md">
+      <div className="grid grid-cols-4">
+        <Task />
+        <Task />
+        <Task />
+        <Task />
+        <Task />
+        <Task />
+        <Task />
+        <Task />
+        <Task />
+        <Task />
+        <Task />
+        <Task />
+        <Task />
+        <Task />
         <Task />
         <Task />
       </div>
