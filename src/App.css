@@ -1,9 +1,20 @@
 #root {
   /* max-width: 1280px; */
+  background-color: #e3f2ce;
+  min-height: 100vh;
   margin: 0 auto;
   padding: 0.5rem;
   text-align: center;
 }
+/* html,
+body,
+#root,
+.App {
+  height: 100%;
+} */
+/* #calendarDiv {
+  height: 379.4%;
+} */
 
 .logo {
   height: 6em;

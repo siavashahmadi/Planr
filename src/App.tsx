@@ -2,14 +2,21 @@ import { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Calendar from "./components/Calendar";
+import DailyView from "./components/DailyView";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div>
-      <Navbar />
-      <Calendar />
+      <div>
+        <Navbar />
+      </div>
+      <div className="flex flex-row">
+        <Calendar />
+
+        <DailyView />
+      </div>
     </div>
   );
 }
