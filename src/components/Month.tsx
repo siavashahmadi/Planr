@@ -13,7 +13,7 @@ const Month: React.FC<MonthProps> = (props) => {
   return (
     <div
       key={monthIndex}
-      className="month grid grid-cols-7 mt-3 w-full lg:w-3/4 bg-white rounded-xl"
+      className="month grid grid-cols-7 mt-2 w-full bg-white rounded-xl"
     >
       <div className="p-2 text-[#838383]">Sunday</div>
       <div className="p-2 text-[#838383]">Monday</div>
